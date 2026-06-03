@@ -1,0 +1,4 @@
+2026-05-25T08:43:41+08:00
+User notified to check OpenAlex terms and the license of any retrieved papers before reuse:
+- https://developers.openalex.org/
+Always verify each paper's own license/reuse restrictions before redistribution or download.

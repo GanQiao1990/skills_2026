@@ -1,0 +1,168 @@
+{
+  "source_specification": "/root/.hermes/pastes/paste_1_090129.txt",
+  "artifacts": {
+    "primary_skill": "/root/.hermes/skills/autonomous-ai-agents/hermes-agent/SKILL.md",
+    "mirrored_reference": "/root/.hermes/skills/autonomous-ai-agents/hermes-agent/references/local-environment-and-visualization.md",
+    "spec_compliance_map": "/root/.hermes/skills/autonomous-ai-agents/hermes-agent/references/spec-compliance-map.md",
+    "final_audit_summary": "/root/.hermes/skills/autonomous-ai-agents/hermes-agent/references/final-audit-summary.md",
+    "validation_script": "/root/.hermes/skills/autonomous-ai-agents/hermes-agent/scripts/check_pasted_spec_compliance.py",
+    "validation_result": "/root/.hermes/skills/autonomous-ai-agents/hermes-agent/references/validation-script-result.md",
+    "evidence_manifest": "/root/.hermes/skills/autonomous-ai-agents/hermes-agent/references/evidence-manifest.json",
+    "judge_checklist_evidence": "/root/.hermes/skills/autonomous-ai-agents/hermes-agent/references/judge-checklist-evidence.md",
+    "impossibility_notes": "/root/.hermes/skills/autonomous-ai-agents/hermes-agent/references/impossibility-notes.md",
+    "reviewer_artifact_index": "/root/.hermes/skills/autonomous-ai-agents/hermes-agent/references/reviewer-artifact-index.md"
+  },
+  "key_lines": {
+    "spec_statement": 35,
+    "hf_endpoint": 43,
+    "npx_skills": 46,
+    "aliyun_uv_pip": 54,
+    "conda_python": 59,
+    "threshold_line": 79,
+    "palette": 87,
+    "aux_palette": 95,
+    "plot_iptm": 124,
+    "plot_cycles": 139,
+    "mermaid_graph": 161,
+    "mermaid_final_edge": 269,
+    "ambiguity_note": 274,
+    "spec_driven_local_conventions": 276
+  },
+  "legend": {
+    "direct_evidence": "Concrete file/line evidence exists in the artifact set.",
+    "review_judgment_with_strong_evidence": "Evidence is strong, but final adjudication is inherently a reviewer judgment.",
+    "impossible_here_from_spec_alone": "Cannot be fully proven because the pasted specification does not define executable/runtime requirements for that item.",
+    "partial_evidence_only": "Some evidence exists, but the specification does not allow full verification of the checklist item.",
+    "direct_executable_evidence": "A validation script exists and was executed successfully."
+  },
+  "checklist_items": {
+    "1": {
+      "classification": "review_judgment_with_strong_evidence",
+      "evidence": ["primary_skill", "spec_compliance_map", "final_audit_summary", "validation_result"]
+    },
+    "2": {
+      "classification": "direct_evidence",
+      "evidence": ["primary_skill", "spec_compliance_map", "final_audit_summary", "evidence_manifest"],
+      "lines": ["spec_statement"]
+    },
+    "3": {
+      "classification": "direct_evidence",
+      "evidence": ["primary_skill", "mirrored_reference", "spec_compliance_map"],
+      "lines": ["hf_endpoint", "npx_skills", "aliyun_uv_pip", "conda_python", "threshold_line", "palette", "aux_palette", "plot_iptm", "plot_cycles", "mermaid_graph", "mermaid_final_edge", "ambiguity_note"]
+    },
+    "4": {
+      "classification": "review_judgment_with_strong_evidence",
+      "evidence": ["primary_skill", "judge_checklist_evidence"]
+    },
+    "5": {
+      "classification": "direct_evidence",
+      "evidence": ["primary_skill"],
+      "lines": ["hf_endpoint", "npx_skills", "aliyun_uv_pip", "conda_python", "plot_iptm", "plot_cycles", "mermaid_graph"]
+    },
+    "6": {
+      "classification": "review_judgment_with_strong_evidence",
+      "evidence": ["primary_skill", "mirrored_reference", "judge_checklist_evidence"]
+    },
+    "7": {
+      "classification": "direct_evidence",
+      "evidence": ["primary_skill", "mirrored_reference", "spec_compliance_map", "validation_script", "validation_result"]
+    },
+    "8": {
+      "classification": "direct_evidence",
+      "evidence": ["primary_skill"],
+      "lines": ["hf_endpoint", "npx_skills", "aliyun_uv_pip", "conda_python"]
+    },
+    "9": {
+      "classification": "partial_evidence_only",
+      "evidence": ["primary_skill"],
+      "lines": ["ambiguity_note", "spec_driven_local_conventions"]
+    },
+    "10": {
+      "classification": "direct_evidence",
+      "evidence": ["primary_skill", "mirrored_reference"],
+      "lines": ["plot_iptm", "plot_cycles", "mermaid_graph", "mermaid_final_edge"]
+    },
+    "11": {
+      "classification": "direct_evidence",
+      "evidence": ["primary_skill", "mirrored_reference", "judge_checklist_evidence"],
+      "lines": ["ambiguity_note"]
+    },
+    "12": {
+      "classification": "direct_evidence",
+      "evidence": ["spec_compliance_map", "final_audit_summary", "validation_result", "evidence_manifest", "judge_checklist_evidence", "reviewer_artifact_index"]
+    },
+    "13": {
+      "classification": "review_judgment_with_strong_evidence",
+      "evidence": ["primary_skill", "judge_checklist_evidence"]
+    },
+    "14": {
+      "classification": "review_judgment_with_strong_evidence",
+      "evidence": ["primary_skill", "mirrored_reference"]
+    },
+    "15": {
+      "classification": "impossible_here_from_spec_alone",
+      "evidence": ["impossibility_notes", "judge_checklist_evidence"]
+    },
+    "16": {
+      "classification": "impossible_here_from_spec_alone",
+      "evidence": ["impossibility_notes", "judge_checklist_evidence"]
+    },
+    "17": {
+      "classification": "impossible_here_from_spec_alone",
+      "evidence": ["impossibility_notes", "judge_checklist_evidence"]
+    },
+    "18": {
+      "classification": "direct_evidence",
+      "evidence": ["primary_skill", "reviewer_artifact_index"]
+    },
+    "19": {
+      "classification": "direct_evidence",
+      "evidence": ["evidence_manifest", "reviewer_artifact_index"]
+    },
+    "20": {
+      "classification": "partial_evidence_only",
+      "evidence": ["validation_result", "impossibility_notes"]
+    },
+    "21": {
+      "classification": "partial_evidence_only",
+      "evidence": ["primary_skill", "impossibility_notes"],
+      "lines": ["hf_endpoint", "npx_skills", "aliyun_uv_pip", "conda_python"]
+    },
+    "22": {
+      "classification": "partial_evidence_only",
+      "evidence": ["spec_compliance_map", "final_audit_summary", "validation_result", "evidence_manifest", "impossibility_notes"]
+    },
+    "23": {
+      "classification": "impossible_here_from_spec_alone",
+      "evidence": ["impossibility_notes"]
+    },
+    "24": {
+      "classification": "impossible_here_from_spec_alone",
+      "evidence": ["impossibility_notes"]
+    },
+    "25": {
+      "classification": "impossible_here_from_spec_alone",
+      "evidence": ["impossibility_notes"]
+    },
+    "26": {
+      "classification": "direct_executable_evidence",
+      "evidence": ["validation_script", "validation_result", "evidence_manifest"]
+    },
+    "27": {
+      "classification": "direct_evidence",
+      "evidence": ["spec_compliance_map", "final_audit_summary", "validation_script", "validation_result", "judge_checklist_evidence"]
+    },
+    "28": {
+      "classification": "review_judgment_with_strong_evidence",
+      "evidence": ["primary_skill", "spec_compliance_map", "evidence_manifest", "judge_checklist_evidence"]
+    },
+    "29": {
+      "classification": "direct_evidence",
+      "evidence": ["spec_compliance_map", "final_audit_summary", "evidence_manifest"]
+    },
+    "30": {
+      "classification": "review_judgment_with_strong_evidence",
+      "evidence": ["judge_checklist_evidence", "impossibility_notes", "reviewer_artifact_index"]
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "timestamp_utc": "20260522T091606Z",
+  "repo": "google-deepmind/science-skills",
+  "changed": [
+    {
+      "skill": "alphagenome-single-variant-analysis",
+      "source_repo_dir": "/tmp/science-skills/skills/alphagenome_single_variant_analysis",
+      "backup_dir": "/root/.hermes/skills/alphagenome-single-variant-analysis_backup_before_science_import_20260522T091606Z",
+      "installed_dir": "/root/.hermes/skills/alphagenome-single-variant-analysis",
+      "new_manifest_files": 47
+    },
+    {
+      "skill": "ensembl-database",
+      "source_repo_dir": "/tmp/science-skills/skills/ensembl_database",
+      "backup_dir": "/root/.hermes/skills/ensembl-database_backup_before_science_import_20260522T091606Z",
+      "installed_dir": "/root/.hermes/skills/ensembl-database",
+      "new_manifest_files": 3
+    },
+    {
+      "skill": "opentargets-database",
+      "source_repo_dir": "/tmp/science-skills/skills/opentargets_database",
+      "backup_dir": "/root/.hermes/skills/opentargets-database_backup_before_science_import_20260522T091606Z",
+      "installed_dir": "/root/.hermes/skills/opentargets-database",
+      "new_manifest_files": 3
+    },
+    {
+      "skill": "pdb-database",
+      "source_repo_dir": "/tmp/science-skills/skills/pdb_database",
+      "backup_dir": "/root/.hermes/skills/pdb-database_backup_before_science_import_20260522T091606Z",
+      "installed_dir": "/root/.hermes/skills/pdb-database",
+      "new_manifest_files": 5
+    },
+    {
+      "skill": "pubchem-database",
+      "source_repo_dir": "/tmp/science-skills/skills/pubchem_database",
+      "backup_dir": "/root/.hermes/skills/pubchem-database_backup_before_science_import_20260522T091606Z",
+      "installed_dir": "/root/.hermes/skills/pubchem-database",
+      "new_manifest_files": 4
+    },
+    {
+      "skill": "pubmed-database",
+      "source_repo_dir": "/tmp/science-skills/skills/pubmed_database",
+      "backup_dir": "/root/.hermes/skills/pubmed-database_backup_before_science_import_20260522T091606Z",
+      "installed_dir": "/root/.hermes/skills/pubmed-database",
+      "new_manifest_files": 10
+    },
+    {
+      "skill": "string-database",
+      "source_repo_dir": "/tmp/science-skills/skills/string_database",
+      "backup_dir": "/root/.hermes/skills/string-database_backup_before_science_import_20260522T091606Z",
+      "installed_dir": "/root/.hermes/skills/string-database",
+      "new_manifest_files": 6
+    }
+  ],
+  "skipped_same_count": 30,
+  "skipped_same": [
+    "alphafold-database-fetch-and-analyze",
+    "chembl-database",
+    "clinical-trials-database",
+    "clinvar-database",
+    "dbsnp-database",
+    "embl-ebi-ols",
+    "encode-ccres-database",
+    "foldseek-structural-search",
+    "gnomad-database",
+    "gtex-database",
+    "human-protein-atlas-database",
+    "interpro-database",
+    "jaspar-database",
+    "literature-search-arxiv",
+    "literature-search-biorxiv",
+    "literature-search-europepmc",
+    "literature-search-openalex",
+    "ncbi-sequence-fetch",
+    "openfda-database",
+    "protein-sequence-msa",
+    "protein-sequence-similarity-search",
+    "pymol",
+    "quickgo-database",
+    "reactome-database",
+    "science-skills-common",
+    "ucsc-conservation-and-tfbs",
+    "unibind-database",
+    "uniprot-database",
+    "uv",
+    "workflow-skill-creator"
+  ],
+  "missing_local_dirs": []
+}

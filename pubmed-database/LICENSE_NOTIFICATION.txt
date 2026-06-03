@@ -1,0 +1,5 @@
+2026-05-25T09:21:00+08:00
+User notified to check PubMed/NCBI terms and paper licenses before reuse:
+- https://pubmed.ncbi.nlm.nih.gov/disclaimer/
+- https://www.ncbi.nlm.nih.gov/home/about/policies/
+Always verify the license/status of retrieved papers before redistribution or text-mining reuse.

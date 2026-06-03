@@ -1,0 +1,54 @@
+{
+  "source_specification": "/root/.hermes/pastes/paste_1_090129.txt",
+  "primary_skill": "/root/.hermes/skills/autonomous-ai-agents/hermes-agent/SKILL.md",
+  "supporting_artifacts": {
+    "mirrored_reference": "/root/.hermes/skills/autonomous-ai-agents/hermes-agent/references/local-environment-and-visualization.md",
+    "compliance_map": "/root/.hermes/skills/autonomous-ai-agents/hermes-agent/references/spec-compliance-map.md",
+    "final_audit_summary": "/root/.hermes/skills/autonomous-ai-agents/hermes-agent/references/final-audit-summary.md",
+    "validation_script": "/root/.hermes/skills/autonomous-ai-agents/hermes-agent/scripts/check_pasted_spec_compliance.py",
+    "validation_result": "/root/.hermes/skills/autonomous-ai-agents/hermes-agent/references/validation-script-result.md"
+  },
+  "evidence": {
+    "skill_declares_it_follows_source_spec_at_line": 35,
+    "hf_endpoint_export_line": 43,
+    "npx_skills_line": 46,
+    "aliyun_uv_pip_line": 54,
+    "conda_python_line": 59,
+    "threshold_color_line": 79,
+    "palette_line": 87,
+    "aux_palette_line": 95,
+    "plot_iptm_line": 124,
+    "plot_cycles_line": 139,
+    "mermaid_graph_line": 161,
+    "mermaid_final_edge_line": 269,
+    "spec_driven_local_conventions_line": 276
+  },
+  "artifact_existence": {
+    "primary_skill": true,
+    "mirrored_reference": true,
+    "compliance_map": true,
+    "final_audit_summary": true,
+    "validation_script": true,
+    "validation_result": true,
+    "source_specification": true
+  },
+  "artifact_sizes_bytes": {
+    "primary_skill": 41170,
+    "mirrored_reference": 7757,
+    "compliance_map": 6013,
+    "final_audit_summary": 3128,
+    "validation_script": 5301,
+    "validation_result": 1415,
+    "source_specification": 7061
+  },
+  "validation": {
+    "validation_result_contains_overall_pass_true": true,
+    "scope": "literal content presence, mirrored exact blocks, and traceability artifacts",
+    "does_not_claim": [
+      "performance guarantees not defined by the pasted specification",
+      "sandbox or refusal semantics not defined by the pasted specification",
+      "runtime entrypoint behavior beyond the skill file contents",
+      "external acceptance-suite results that were not provided by the specification"
+    ]
+  }
+}
