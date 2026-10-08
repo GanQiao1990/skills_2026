@@ -35,6 +35,10 @@ Use molecular dynamics when:
 - **Membrane simulations**: Model proteins in lipid bilayers
 - **Intrinsically disordered proteins**: Study IDR conformational ensembles
 
+For publication figures or animated trajectory views, use the sibling
+`md-display` skill. Its membrane animation workflow keeps the bilayer reference
+fixed so protein motion can be viewed against a stable lipid layer.
+
 ## Core Workflow: OpenMM Simulation
 
 ### 1. System Preparation
